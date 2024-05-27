@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web_Development Tutorial</title>
+  <link rel="stylesheet" href="course.css">
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var dropdownTitles = document.querySelectorAll('.dropdown-title');
+      dropdownTitles.forEach(function(title) {
+        title.addEventListener('click', function() {
+          var dropdownContent = this.parentNode.querySelector('.dropdown-content');
+          dropdownContent.style.display = dropdownContent.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+    });
+</script>
+<body>
+<div class="navbar">
+<a href="../User-courses.php" class="exit-icon">&#10006;</a>
+  <div class="dropdown">
+    <div class="dropdown-title">
+      <i class="dropdown-icon">&#9776;</i>
+      <span style="font-size: 20px">Web_Development Tutorial</span>
+    </div>
+    <div class="dropdown-content">
+      <a href="#web_development-home">Web_Development Home</a>
+      <a href="#Web_Development-Intro">Web_Development Intro</a>
+      <a href="#Web_Development-Syntax">Web_Development Syntax</a>
+      <a href="#Web_Development-Comment">Web_Development Comment</a>
+      <a href="#Web_Development-Variable">Web_Development Variable</a>
+      <a href="#Web_Development-Datatypes">Web_Development Datatypes</a>
+      <a href="#Web_Development-Number">Web_Development Number</a>
+      <a href="#Web_Development-Casting">Web_Development Casting</a>
+      <a href="#Web_Development-String">Web_Development String</a>
+      <a href="#Web_Development-Boolean">Web_Development Boolean</a>
+      <a href="#Web_Development-Operator">Web_Development Operator</a>
+      <a href="#Web_Development-If">Web_Development If Else</a>
+      <a href="#Web_Development-While">Web_Development While Loop</a>
+      <a href="#Web_Development-For">Web_Development For Loop</a>
+      <a href="#Web_Development-Function">Web_Development Function</a>
+      <a href="#Web_Development-Array">Web_Development Array</a>
+      <a href="#Web_Development-Classes/Objects">Web_Development Classes/Objects</a>
+      <a href="#Web_Development-Inheritance">Web_Development Inheritance</a>
+      <a href="#Web_Development-Polymorphism">Web_Development Polymorphism</a>
+      <a href="#Web_Development-Dates">Web_Development Dates</a>
+      <a href="#Web_Development-Math">Web_Development Math</a>
+    </div>
+  </div>
+</div>
+  <div class="topic">
+    <span id="Web_Development-Home"></span>
+    <h2>Web_Development Home</h2>
+    <p>Web_Development is a popular programming language used for various purposes. This topic provides an introduction to Web_Development and its features.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Intro"></span>
+    <h2>Web_Development Intro</h2>
+    <p>Web_Development Intro provides a basic overview of Web_Development, including its history, characteristics, and advantages.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Syntax"></span>
+    <h2>Web_Development Syntax</h2>
+    <p>Web_Development Syntax covers the rules and structure of writing Web_Development code, including indentation, statements, and common syntax elements.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Comment"></span>
+    <h2>Web_Development Comment</h2>
+    <p>Web_Development Comment explains how to add comments in Web_Development code to improve code readability and provide explanations.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Variable"></span>
+    <h2>Web_Development Variable</h2>
+    <p>Web_Development Variable discusses the concept of variables in Web_Development, their naming rules, and how to assign values to variables.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Datatypes"></span>
+    <h2>Web_Development Datatypes</h2>
+    <p>Web_Development Datatypes cover the different types of data that can be used in Web_Development, such as numbers, strings, lists, tuples, and dictionaries.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Number"></span>
+    <h2>Web_Development Number</h2>
+    <p>Web_Development Number explains the various types of numbers in Web_Development, including integers, floating-point numbers, and complex numbers.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Casting"></span>
+    <h2>Web_Development Casting</h2>
+    <p>Web_Development Casting explores the process of converting one data type to another in Web_Development, such as converting a string to an integer or a float.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-String"></span>
+    <h2>Web_Development String</h2>
+    <p>Web_Development String covers the manipulation and operations that can be performed on strings in Web_Development, such as concatenation, slicing, and formatting.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Boolean"></span>
+    <h2>Web_Development Boolean</h2>
+    <p>Web_Development Boolean explains the concept of boolean values in Web_Development, which represent either True or False, and how they are used in logical operations.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Operator"></span>
+    <h2>Web_Development Operator</h2>
+    <p>Web_Development Operator covers the different types of operators available in Web_Development, such as arithmetic, comparison, logical, and assignment operators.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-if"></span>
+    <h2>Web_Development if else</h2>
+    <p>Web_Development if else explains the conditional statements in Web_Development, including the if-else statement and nested if-else statements.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-While"></span>
+    <h2>Web_Development While loop</h2>
+    <p>Web_Development While loop introduces the concept of loops in Web_Development, with a focus on the while loop and how it can be used for repetitive execution.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-for"></span>
+    <h2>Web_Development for loop</h2>
+    <p>Web_Development for loop explores the for loop in Web_Development, which is used for iterating over sequences such as lists, tuples, strings, and dictionaries.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Function"></span>
+    <h2>Web_Development Function</h2>
+    <p>Web_Development Function explains how to define and use functions in Web_Development, including function declaration, parameters, return values, and function libraries.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Array"></span>
+    <h2>Web_Development Array</h2>
+    <p>Web_Development Array covers the concept of arrays in Web_Development, including creating arrays, accessing elements, and performing array operations.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Classes/Objects"></span>
+    <h2>Web_Development Classes/Objects</h2>
+    <p>Web_Development Classes/Objects provides an introduction to object-oriented programming in Web_Development, covering classes, objects, attributes, and methods.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Inheritance"></span>
+    <h2>Web_Development Inheritance</h2>
+    <p>Web_Development Inheritance explains the concept of inheritance in Web_Development, allowing classes to inherit attributes and behaviors from other classes.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Polymorphism"></span>
+    <h2>Web_Development Polymorphism</h2>
+    <p>Web_Development Polymorphism explores the concept of polymorphism in Web_Development, where objects of different classes can be used interchangeably.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Dates"></span>
+    <h2>Web_Development Dates</h2>
+    <p>Web_Development Dates covers working with dates and times in Web_Development, including date formatting, calculating time differences, and performing date arithmetic.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Web_Development-Math"></span>
+    <h2>Web_Development Math</h2>
+    <p>Web_Development Math provides an overview of the math module in Web_Development, which includes various mathematical functions and constants.</p>
+  </div>
+
+</body>
+</html>

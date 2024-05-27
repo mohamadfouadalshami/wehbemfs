@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/user-navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuIcon = document.querySelector('.menu-icon');
+    const sidebarMenu = document.querySelector('.sidebar-menu');
+  
+    menuIcon.addEventListener('click', () => {
+      sidebarMenu.classList.toggle('show');
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const cancelIcon = document.querySelector('.cancel-icon');
+    const sidebarMenu = document.querySelector('.sidebar-menu');
+  
+    cancelIcon.addEventListener('click', () => {
+      sidebarMenu.classList.remove('show');
+    });
+  });
+  
+</script>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#" class="haha"><img src="../assets/another-assets/logo.png" alt="Logo" loading="lazy"></a>
+    </div>
+  
+    <div class="nav-content">
+      <ul>
+        <li><a href="../User/User-courses.php" class="show">My Courses</a></li>
+        <li><a href="../User/User-new-courses.php" class="show">New Courses</a></li>
+        <li>
+          <a href="#" class="show">My Profile</a>
+          <div class="dropdown-menu">
+            <a href="changeUsername.php"><i class="fas fa-user-edit"></i> Change Username</a>
+            <a href="changePassword.php"><i class="fas fa-lock"></i> Change Password</a>
+            <a href="feedbackstudent.php"><i class="fas fa-comment-dots"></i> Feedback Message</a>
+            <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  
+  <div class="sidebar-menu">
+    <div class="logo">
+      <img src="../assets/another-assets/logo.png" alt="Logo" loading="lazy">
+    </div>
+    <div class="cancel-icon">
+      <i class="fas fa-times"></i>
+    </div>
+    <hr class="separator">
+    <ul>
+      <li><a href="User-courses.php" class="show">My courses</a></li>
+      <li><a href="User-new-courses.php" class="show">New Courses</a></li>
+      <li><a href="#" class="show">My Profile</a>
+     </li>
+      <li><a href="" class="show">Codes</a></li>
+    </ul>
+    <hr class="separator">
+  </div>
+</body>
+</html>

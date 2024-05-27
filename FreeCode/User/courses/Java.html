@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Java Tutorial</title>
+  <link rel="stylesheet" href="course.css">
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var dropdownTitles = document.querySelectorAll('.dropdown-title');
+      dropdownTitles.forEach(function(title) {
+        title.addEventListener('click', function() {
+          var dropdownContent = this.parentNode.querySelector('.dropdown-content');
+          dropdownContent.style.display = dropdownContent.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+    });
+</script>
+<body>
+<div class="navbar">
+<a href="../User-courses.php" class="exit-icon">&#10006;</a>
+  <div class="dropdown">
+    <div class="dropdown-title">
+      <i class="dropdown-icon">&#9776;</i>
+      <span style="font-size: 20px">Java Tutorial</span>
+    </div>
+    <div class="dropdown-content">
+      <a href="#Java-home">Java Home</a>
+      <a href="#Java-Intro">Java Intro</a>
+      <a href="#Java-Syntax">Java Syntax</a>
+      <a href="#Java-Comment">Java Comment</a>
+      <a href="#Java-Variable">Java Variable</a>
+      <a href="#Java-Datatypes">Java Datatypes</a>
+      <a href="#Java-Number">Java Number</a>
+      <a href="#Java-Casting">Java Casting</a>
+      <a href="#Java-String">Java String</a>
+      <a href="#Java-Boolean">Java Boolean</a>
+      <a href="#Java-Operator">Java Operator</a>
+      <a href="#Java-If">Java If Else</a>
+      <a href="#Java-While">Java While Loop</a>
+      <a href="#Java-For">Java For Loop</a>
+      <a href="#Java-Function">Java Function</a>
+      <a href="#Java-Array">Java Array</a>
+      <a href="#Java-Classes/Objects">Java Classes/Objects</a>
+      <a href="#Java-Inheritance">Java Inheritance</a>
+      <a href="#Java-Polymorphism">Java Polymorphism</a>
+      <a href="#Java-Dates">Java Dates</a>
+      <a href="#Java-Math">Java Math</a>
+    </div>
+  </div>
+</div>
+  <div class="topic">
+    <span id="Java-Home"></span>
+    <h2>Java Home</h2>
+    <p>Java is a popular programming language used for various purposes. This topic provides an introduction to Java and its features.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Intro"></span>
+    <h2>Java Intro</h2>
+    <p>Java Intro provides a basic overview of Java, including its history, characteristics, and advantages.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Syntax"></span>
+    <h2>Java Syntax</h2>
+    <p>Java Syntax covers the rules and structure of writing Java code, including indentation, statements, and common syntax elements.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Comment"></span>
+    <h2>Java Comment</h2>
+    <p>Java Comment explains how to add comments in Java code to improve code readability and provide explanations.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Variable"></span>
+    <h2>Java Variable</h2>
+    <p>Java Variable discusses the concept of variables in Java, their naming rules, and how to assign values to variables.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Datatypes"></span>
+    <h2>Java Datatypes</h2>
+    <p>Java Datatypes cover the different types of data that can be used in Java, such as numbers, strings, lists, tuples, and dictionaries.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Number"></span>
+    <h2>Java Number</h2>
+    <p>Java Number explains the various types of numbers in Java, including integers, floating-point numbers, and complex numbers.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Casting"></span>
+    <h2>Java Casting</h2>
+    <p>Java Casting explores the process of converting one data type to another in Java, such as converting a string to an integer or a float.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-String"></span>
+    <h2>Java String</h2>
+    <p>Java String covers the manipulation and operations that can be performed on strings in Java, such as concatenation, slicing, and formatting.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Boolean"></span>
+    <h2>Java Boolean</h2>
+    <p>Java Boolean explains the concept of boolean values in Java, which represent either True or False, and how they are used in logical operations.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Operator"></span>
+    <h2>Java Operator</h2>
+    <p>Java Operator covers the different types of operators available in Java, such as arithmetic, comparison, logical, and assignment operators.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-if"></span>
+    <h2>Java if else</h2>
+    <p>Java if else explains the conditional statements in Java, including the if-else statement and nested if-else statements.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-While"></span>
+    <h2>Java While loop</h2>
+    <p>Java While loop introduces the concept of loops in Java, with a focus on the while loop and how it can be used for repetitive execution.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-for"></span>
+    <h2>Java for loop</h2>
+    <p>Java for loop explores the for loop in Java, which is used for iterating over sequences such as lists, tuples, strings, and dictionaries.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Function"></span>
+    <h2>Java Function</h2>
+    <p>Java Function explains how to define and use functions in Java, including function declaration, parameters, return values, and function libraries.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Array"></span>
+    <h2>Java Array</h2>
+    <p>Java Array covers the concept of arrays in Java, including creating arrays, accessing elements, and performing array operations.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Classes/Objects"></span>
+    <h2>Java Classes/Objects</h2>
+    <p>Java Classes/Objects provides an introduction to object-oriented programming in Java, covering classes, objects, attributes, and methods.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Inheritance"></span>
+    <h2>Java Inheritance</h2>
+    <p>Java Inheritance explains the concept of inheritance in Java, allowing classes to inherit attributes and behaviors from other classes.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Polymorphism"></span>
+    <h2>Java Polymorphism</h2>
+    <p>Java Polymorphism explores the concept of polymorphism in Java, where objects of different classes can be used interchangeably.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Dates"></span>
+    <h2>Java Dates</h2>
+    <p>Java Dates covers working with dates and times in Java, including date formatting, calculating time differences, and performing date arithmetic.</p>
+  </div>
+
+  <div class="topic">
+    <span id="Java-Math"></span>
+    <h2>Java Math</h2>
+    <p>Java Math provides an overview of the math module in Java, which includes various mathematical functions and constants.</p>
+  </div>
+
+</body>
+</html>

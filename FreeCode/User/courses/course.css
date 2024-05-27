@@ -1,0 +1,88 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .dropdown-title {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.navbar .dropdown-icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  margin-right: 4px;
+}
+
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.navbar .dropdown-content a {
+  display: block;
+  padding: 6px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+.topic {
+  background:linear-gradient(180deg, #ffcc00, #ffcc00);
+  padding: 20px;
+  margin-bottom: 20px;
+  width:90%;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 50px ;
+  margin-right: 10px;
+}
+
+.topic h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.topic p {
+  color: white;
+  font-size: 16px;
+}
+.exit-icon {
+position: absolute;
+top: 10px;
+right: 10px;
+color: #999;
+font-size: 24px;
+text-decoration: none;
+}
+
+.exit-icon:hover {
+color: #666;
+}
